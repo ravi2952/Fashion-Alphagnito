@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .products-heading h1{
+    color: #000000;
+    font-weight: 700;
+    padding: 50px 0px 0px 120px;
+    margin-bottom: -50px;
+  }
+  
+  .products {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 25px;
+    margin: 25px 40px 25px 50px;
+  }
+  
+  .product-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: auto;
+    border: 1px solid #0000003a;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 25px;
+  }
+  
+  .products img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+  }
+  
+  .products h4 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #000000;
+    margin-top: 10px;
+  }
+  
+  .products span {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: 600;
+    color: #000000;
+    padding-top: 10px;
+  }
+  
+  .products p {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: 400;
+    color: #00000080;
+    margin-top: 10px;
+  }
+  
+  .products a {
+    background-color: #fdab2fe5;
+    color: #000000;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: 400;
+    padding: 10px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+  
+  .products a:hover {
+    background-color: #ff7d04cb;
+  }
+
+.CartView{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.Cart-view-heading{
+    color: #000000;
+    font-weight: 700;
+}
+
+.cart-view-button{
+    color: #ff9900;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 30px;
+}
+  
+  @media screen and (min-width: 320px) and (max-width: 425px) {
+    .products {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0px;
+      padding: 0px;
+    }
+  }
+  
+  @media screen and (min-width: 426px) and (max-width: 768px) {
+    .products {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-gap: 5px;
+      margin: 0px;
+      padding: 0px;
+    }
+  
+    .product-items {
+      width: 140px;
+    }
+  
+    .product-items img {
+      width: 140px;
+      height: 120px;
+    }
+  }
+  

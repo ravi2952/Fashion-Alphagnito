@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Login-page-bg {
+  width: 100%;
+  height: 100vh;
+  background: url("../../assets/loginpagebg2.png");
+  background-position: start;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(5px);
+  padding: 50px 300px;
+}
+
+.loginFlex {
+  width: 100%;
+  height: 520px;
+  background: url("../../assets/loginpagebg1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.loginForm {
+  width: 100%;
+  height: 520px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginForm input{
+    border: 1px solid #00000085;
+    outline: none;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+input::placeholder{
+    color: #00000085;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.Login-button{
+    padding: 5px 77px 5px 77px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    background-color: orange;
+    margin-top: 10px;
+}
+
+.OTP-button{
+    padding: 5px 50px 5px 50px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    background-color: #187bcd;   
+}
+
+.loginForm p{
+    font-weight: 500;
+}
+
+.loginForm h4{
+    font-weight: 500;
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+
+    .Login-page-bg{
+        width: 100%;
+        height: 100vh;
+        padding: 50px 100px;
+    }
+
+    .loginFlex{
+        height: 400px;
+    }
+
+    .loginForm{
+        height: 400px;
+    }
+    
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+
+    .Login-page-bg{
+        width: 100%;
+        height: 100vh;
+        padding: 10px 15px;
+    }
+
+    .loginFlex{
+        height: 300px;
+    }
+
+    .loginForm{
+        height: 300px;
+    }
+    
+}

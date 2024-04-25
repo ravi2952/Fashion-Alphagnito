@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.install{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.installApplication {
+  margin-top: 50px;
+}
+
+.Left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.Download-heading {
+  font-family: "Kanit", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.Download-subHeading {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: gray;
+}
+
+.image-cloumn1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Apple {
+  width: 150px;
+  height: 50px;
+  margin-top: -20px;
+  margin-left: -30px; 
+}
+
+.Android {
+  width: 200px;
+  margin-top: -70px;
+  margin-left: -50px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .Left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-column2 img{
+    width: 250px;
+    margin-top: 25px;
+  }
+}

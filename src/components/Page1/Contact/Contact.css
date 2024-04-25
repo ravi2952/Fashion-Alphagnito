@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 197, 36);
+  margin-top: 50px;
+}
+
+.contact-form-heading {
+  color: #fff;
+  font-family: "Kanit", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  text-align: center;
+  margin-top: 50px;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+}
+
+.contact-form-text {
+  color: #fff;
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+}
+
+.contact-form-fields{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form-input {
+  width: 270px;
+  background-color: #fff;
+  padding: 5px;
+  margin-bottom: 50px;
+}
+
+.contact-form-input input {
+  background-color: #fff;
+  outline: none;
+  border: none;
+  padding: 0px 10px 0px 10px
+}
+
+.contact-form-input::placeholder {
+  color: gray;
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.contact-form-input button {
+  background-color: #000000;
+  color: #fff;
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  padding: 2px 10px 2px 10px;
+  border: none;
+}
